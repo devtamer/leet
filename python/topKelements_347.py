@@ -30,6 +30,7 @@ class topKFrequent:
                 if len(res) == k:
                     return(res)
 
+# working
 obj = topKFrequent()
 nums, k = [1,1,1,2,2,2,2,2,3], 2
 print(obj.solution1(nums, k))
